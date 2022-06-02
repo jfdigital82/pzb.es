@@ -12,27 +12,10 @@
 	<link rel="stylesheet" href="assets/css/animate.min.css">
 	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- Meta Pixel Code -->
-<script>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t,s)}(window, document,'script',
-	'https://connect.facebook.net/en_US/fbevents.js');
-	fbq('init', '395483719292164');
-	fbq('track', 'PageView');
-  </script>
-  <!-- <noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=1363293460822097&ev=PageView&noscript=1"
-  /></noscript> -->
-  <!-- End Meta Pixel Code -->
 
 <body>
 	<div class="quiz-top-area text-center">
-		<h1 style="color:yellow" >Está tudo certo, responda as perguntas abaixo para ter acesso ao conteúdo</h1>
+		<h1 style="color:yellow" >Está bien, responda las preguntas a continuación para obtener acceso al contenido.</h1>
 		<div class="quiz-countdown text-center ul-li">
 			
 		</div>
@@ -49,12 +32,11 @@
 				</ul>
 			</div>
 			<div class="step-inner-content clearfix position-relative">
-				<form class="multisteps-form__form" action="https://jthemes.net/themes/html/BeWizard/Quiz/thank-you.html" id="wizard" method="POST">
+				<form class="multisteps-form__form" id="wizard" method="POST">
 					<div class="form-area position-relative">
 						<div class="multisteps-form__panel  js-active" data-animation="fadeIn">
 							<div class="wizard-forms clearfix position-relative black">
 								<div class="quiz-title text-center">
-									<span>Pergunta 1</span>
 									<h2>¡Gracias! ¿Cuál es su propósito al tener acceso a este contenido?</h2>
 								</div>
 								<div class="quiz-option-selector clearfix">
@@ -63,7 +45,7 @@
 											<label class="start-quiz-item">
 												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">A</span>
-												<span class="exp-label">Quiero tener un cuerpo sano.</span>
+												<span class="exp-label">Tener un cuerpo sano.</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -71,7 +53,7 @@
 											<label>
 												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">B</span>
-												<span class="exp-label">Quiero comer mejor.</span>
+												<span class="exp-label">Comer mejor.</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -79,7 +61,7 @@
 											<label>
 												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">c</span>
-												<span class="exp-label">Quero ir a praia</span>
+												<span class="exp-label">Ir a la playa</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -87,7 +69,7 @@
 											<label>
 												<input type="radio" name="quiz" value="SEO" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">d</span>
-												<span class="exp-label">Quiero usar mi atuendo favorito.</span>
+												<span class="exp-label">Usar mi atuendo favorito.</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -99,14 +81,13 @@
 						<div class="multisteps-form__panel" data-animation="fadeIn">
 							<div class="wizard-forms clearfix position-relative">
 								<div class="quiz-title text-center">
-									<span>Pergunta 2</span>
 									<h2>¿Hablarás de este contenido con alguien más?</h2>
 								</div>
 								<div class="quiz-option-selector clearfix">
 									<ul>
 										<li>
 											<label class="start-quiz-item">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box last-question">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">A</span>
 												<span class="exp-label">Sí, hablaré con todos</span>
 												<span class="checkmark-border"></span>
@@ -114,7 +95,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box last-question">
+												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">B</span>
 												<span class="exp-label">Se lo diré a mis mejores amigos</span>
 												<span class="checkmark-border"></span>
@@ -122,7 +103,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box last-question">
+												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">C</span>
 												<span class="exp-label">Por supuesto</span>
 												<span class="checkmark-border"></span>
@@ -130,7 +111,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="SEO" class="exp-option-box last-question">
+												<input type="radio" name="quiz" value="SEO" class="exp-option-box js-btn-next">
 												<span class="exp-number text-uppercase">D</span>
 												<span class="exp-label">Estaban interesados ​​en saber</span>
 												<span class="checkmark-border"></span>
@@ -143,7 +124,6 @@
                   <div class="multisteps-form__panel" data-animation="fadeIn">
 							<div class="wizard-forms clearfix position-relative">
 								<div class="quiz-title text-center">
-									<span>Pergunta 2</span>
 									<h2>Última pregunta ¿cómo te sientes?</h2>
 								</div>
 								<div class="quiz-option-selector clearfix">
@@ -160,7 +140,7 @@
 											<label>
 												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box last-question">
 												<span class="exp-number text-uppercase">B</span>
-												<span class="exp-label">Tengo muchas ganas de ver el contenido</span>
+												<span class="exp-label">Ver el contenido</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -196,7 +176,7 @@
 	<script src="assets/js/jquery.validate.min.js"></script>
 	<script type="text/javascript">
 		$('.last-question').click(function(){
-		   window.location.href='/funnel/';
+		   window.location.href='/sl/';
 		})
 	   </script>
 </body>
