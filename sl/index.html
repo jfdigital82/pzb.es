@@ -449,11 +449,16 @@
 	
 		$(document).ready(function() {
 			console.log( "ready!" );
-			
-			setTimeout(() => {
+			var url = new URL(window.location.href);
+			var c = url.searchParams.get("ref");
+			if(c === "google"){
+				$('.noshow').show();
+			} else {
+				setTimeout(() => {
 				$('.noshow').show();
 				console.log("Aqui");
-			}, 60000 * 21); 
+				}, 60000 * 21); 
+			}
 		});
 	
 	</script>
