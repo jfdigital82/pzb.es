@@ -65,14 +65,14 @@
 									<ul>
 										<li>
 											<label class="start-quiz-item" style="text-align: center;">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next last-question">
 												<span class="exp-label">Hombres</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
                                         <li>
 											<label class="start-quiz-item" style="text-align: center;">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next last-question">
 												<span class="exp-label">Mujeres</span>
 												<span class="checkmark-border"></span>
 											</label>
@@ -89,6 +89,15 @@
     	<footer style="text-align: center;">
 		<p>© 2022 – Todos los derechos reservados. Este sitio no forma parte ni está avalado por Facebook. Facebook es una marca comercial de Facebook, Inc.</p>
 	</footer>
-	
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/form-step.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+		$('.last-question').click(function(){
+		   window.location.href='/sl/';
+		})
+	</script>		
+</body>
 <!-- Mirrored from jthemes.net/themes/html/BeWizard/Quiz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Apr 2022 20:15:05 GMT -->
 </html>
